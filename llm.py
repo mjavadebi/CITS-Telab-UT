@@ -243,8 +243,8 @@ def chat_page():
     .message{display:flex;gap:10px;max-width:85%;margin-bottom:1rem;align-items:flex-end;}
     .message-content{padding:.75rem 1.25rem;border-radius:20px;line-height:1.7;box-shadow:0 1px 4px rgba(0,0,0,0.1);}
     /* --- RTL Message Alignment --- */
-    .user{justify-content:flex-end;margin-left:auto;}
-    .assistant{justify-content:flex-start;margin-right:auto;}
+    .user{justify-content:flex-start;margin-left:auto;}
+    .assistant{justify-content:flex-end;margin-right:auto;}
     .user .message-content{background:var(--user-msg-bg);color:white;border-bottom-right-radius:5px;}
     .assistant .message-content{background:var(--assistant-msg-bg);color:#212529;border-bottom-left-radius:5px;}
     .avatar{width:40px;height:40px;border-radius:50%;background:var(--primary-color);color:white;display:flex;align-items:center;justify-content:center;font-weight:bold;flex-shrink:0;box-shadow:0 1px 3px rgba(0,0,0,0.2);}
