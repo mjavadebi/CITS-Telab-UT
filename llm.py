@@ -192,7 +192,7 @@ def fslsm_questionnaire():
         questions.forEach((q, i) => {
             const div = document.createElement("div");
             div.className = "fslsm-question";
-            div.innerHTML = `<h3>${q.q}</h3><div class="fslsm-options"><label><input type="radio" name="q${i}" value="A" required><span>${q.a}</span></label><label><input type="radio" name="q${i}" value="B" required><span>${q.b}</span></label></div>`;
+            div.innerHTML = `<h3>${q.q}</h3><div class="fslsm-options"><label><input type="radio" name="q${i}" value="A" ><span>${q.a}</span></label><label><input type="radio" name="q${i}" value="B" required><span>${q.b}</span></label></div>`;
             container.appendChild(div);
         });
     </script>
